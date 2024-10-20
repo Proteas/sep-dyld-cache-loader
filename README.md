@@ -1,8 +1,9 @@
 # `SEP` Firmware Loader for `IDA`
 `IDA` loader for `SEP` firmware with `dyld` cache support.<br/>
 
-1. Place `sep-fw-dyld-cache-loader.py` into `IDA`'s loader plugin dir.
-2. Load the decrypted `SEP` firmware.
+1. Install lief version 0.14.1 `pip install lief==0.14.1`
+2. Place `sep-fw-dyld-cache-loader.py` into `IDA`'s loader plugin dir.
+3. Load the decrypted `SEP` firmware.
 
 # Notes
 1. Tested with `IDA` 8.x
